@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../django"
+		},
+		{
+			"path": "computo03/django/Tienda"
 		}
 	],
 	"settings": {}

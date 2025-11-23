@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Plantilla</title>
+    <style>
+        body {
+            /* Degradado rojo vino */
+            background: linear-gradient(135deg, #3A0710, #6E0F1F, #A51C34);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .contenedor {
+            background-color: rgba(255, 255, 255, 0.92);
+            width: 520px;
+            padding: 32px;
+            border-radius: 30px;
+            text-align: center;
+            backdrop-filter: blur(6px);
+            box-shadow:
+                0px 12px 30px rgba(0, 0, 0, 0.45),
+                0px 0px 12px rgba(150, 0, 40, 0.2) inset;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .contenedor:hover {
+            transform: scale(1.03);
+            box-shadow:
+                0px 18px 38px rgba(0, 0, 0, 0.55),
+                0px 0px 15px rgba(150, 0, 40, 0.28) inset;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            font-size: 26px;
+            color: #7A1022; /* rojo vino más suave */
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+        }
+
+        h3 {
+            margin-top: -10px;
+            margin-bottom: 20px;
+            color: #A51833;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        .contenedor img {
+            width: 100%;
+            max-height: 340px;
+            object-fit: contain;
+            border-radius: 24px;
+            background-color: #FAEDEF; /* blanco rosado suave */
+            padding: 10px;
+            box-shadow:
+                0px 8px 22px rgba(0, 0, 0, 0.35),
+                0px 0px 12px rgba(180, 0, 50, 0.25) inset;
+            transition: transform 0.25s ease;
+        }
+
+        .contenedor img:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h2>Mi plantilla de Programacion III</h2>
+        <h3>Jennifer Baires</h3>
+
+        <img src="https://e0.pxfuel.com/wallpapers/249/479/desktop-wallpaper-gaming-room-anime-gamer-room.jpg" alt="Imagen cargada">
+    </div>
+
+</body>
+</html>
